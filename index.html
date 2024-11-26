@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfilo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#portfolio">Certificate</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi,I'm <span>Shivam</span><br>Gupta From Nepal</h1>
+
+        </div>
+
+    </div>
+</div>
+<!-- ---------about-------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.jpg">
+            </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">About Me</h1>
+               <p>"I'm Shivam Gupta, a passionate beginner in web development, focusing on functionality, aesthetics, and user experience. I started with HTML, CSS, and JavaScript, and I'm now learning frameworks like React and Node.js. I love taking on new challenges and improving my skills.This portfolio showcases my projects, reflecting my growth as a developer. Feel free to explore and reach out for collaboration or a chat!"
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Html</span></li>
+                        <li><span>Css</span></li>
+                        <li><span>Reactjs</span></li>
+                        <li><span>Mernstack</span></li>
+                        <li><span>Javascript</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Schooling(2073)</span><br>Cooperative Sec.Eng.Bod.School </li>
+                        <li><span>+2(2073-2075)</span><br>Triton Intel.College</li>
+                        <li><span>Bachelor(2077-ongoing)</span><br>Lalitpur Engineering College</li>
+                        <!-- <li><span>Mernstack</span></li>
+                        <li><span>Javascript</span></li> -->
+                    </ul>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- ----------------Portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Certificate</h1>
+        <div class="certificate-list">
+           <div class="certificate">
+            <img src="images/certificate.png">
+           </div> 
+        </div>
+    </div>
+</div>
+<!-- --------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>contact98042@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9814207029</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/shibham.gupta.127"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/shivamgupta4016/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shivam-gupta-2b0a7130b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/guptashivam9"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form> 
+               <input type="text" name="Name" placeholder="Your Name" required>
+               <input type="email" name="email" placeholder="Your Email" required>
+               <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+               <button type="submit" class="btn btn2">submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>©[2024] Shivam Gupta. All Rights Reserved </p>
+    </div>
+</div> 
+</body>
+<script src="script.js"></script>
+</html>
