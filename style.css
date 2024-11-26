@@ -27,9 +27,9 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.logo{
+/* .logo{
     width: 140px;
-}
+} */
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -175,6 +175,10 @@ nav ul li a:hover::after{
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
 }
 .contact-right form{
     width: 100%;
@@ -204,3 +208,4 @@ form.btn2{
     font-weight: 300;
     margin-top: 20px;
 }
+
